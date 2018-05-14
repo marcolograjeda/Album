@@ -5,6 +5,8 @@
  */
 package album;
 
+import album.obj.ListaJugador;
+
 /**
  *
  * @author Junior
@@ -15,7 +17,9 @@ public class Album {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ListaJugador jugadores = new ListaJugador();
+        Ejecucion ejec = new Ejecucion();
+        ejec.crearLogin();
     }
     
 }
